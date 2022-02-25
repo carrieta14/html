@@ -1,0 +1,157 @@
+header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: chocolate;
+    text-align: center;
+    width: 100%;
+    height: 170px;
+    top: 0;
+    position: fixed;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e8e8e8;
+    padding-top: 100px;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background-color:#d4291d;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background-color: black;
+}
+
+section{
+    padding-top: 100px;
+}
+
+p{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+#id2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.registro{
+    width: 400px;
+    background-color: rgb(170, 64, 64);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.registro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controls{
+    width: 100%;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.registro a{
+    color: white;
+    text-decoration: none;
+}
+
+.registro a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.boton{
+    width: 100%;
+    background-color: ghostwhite;
+    border: none;
+    padding: 12px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+
+.edad{
+     width: 20%;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+footer{
+    background-color: chocolate;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.parrafo1{
+   background-color: bisque;
+   border-bottom: 16px;
+   border: 18px;
+   margin: auto;
+   padding: 20px;
+   box-shadow: 7px 13px 37px #000;
+}
+
+.parrafo1 p{
+    text-align: justify;
+    margin: auto;
+}
+
+footer p img{
+    width: 60px;
+    height: 60px;
+}
+
+.tabla table img{
+    width: 400px;
+    height: 400px;
+}
+
+.tabla table{
+    margin: auto;
+    box-shadow: 7px 13px 37px #000;
+}
